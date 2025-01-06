@@ -126,7 +126,7 @@ const EducationCarousel = () => {
 
 
           {/* Navigation Arrows */}
-          <div className="flex justify-between items-center mt-7">
+          <div className="flex justify-between items-center mt-7 nav_rspnsv">
             <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
               <img src="/assets/left-arrow.png" alt="left arrow" />
             </button>

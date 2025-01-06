@@ -226,3 +226,7 @@ body {
     -webkit-line-clamp: unset;
   }
 }
+html, body {
+  touch-action: manipulation; /* Prevents pinch-zooming */
+  overscroll-behavior: none;  /* Disables bounce effect in some browsers */
+}

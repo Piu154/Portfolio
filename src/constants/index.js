@@ -16,6 +16,11 @@ export const navLinks = [
     },
     {
       id: 4,
+      name: 'Experience',
+      href: '#experience',
+    },
+    {
+      id: 5,
       name: 'Contact',
       href: '#contact',
     },
@@ -70,6 +75,7 @@ export const navLinks = [
         border: '0.2px solid #36201D',
         boxShadow: '0px 0px 60px 0px #AA3C304D',
       },
+      progress:'In Progress',
       spotlight: '/assets/spotlight1.png',
       tags: [
         {
@@ -108,6 +114,7 @@ export const navLinks = [
         boxShadow: '0px 0px 60px 0px #2F6DB54D',
       },
       spotlight: '/assets/spotlight2.png',
+      progress:'In Progress',
       tags: [
         {
           id: 1,
@@ -147,6 +154,7 @@ export const navLinks = [
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
       spotlight: '/assets/spotlight3.png',
+      progress:'In Maintenance',
       tags: [
         {
           id: 1,
@@ -178,6 +186,7 @@ export const navLinks = [
       // href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
+      progress:'In Progress',
       logoStyle: {
         backgroundColor: '#0E1F38',
         border: '0.2px solid #0E2D58',

@@ -30,7 +30,7 @@ const Projects = () => {
   const currentProject = myProjects[selectedProjectIndex];
 
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="work">
       <p className="head-text">My Selected Work</p>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
@@ -49,6 +49,21 @@ const Projects = () => {
             <p className="animatedText">{currentProject.desc}</p>
             <p className="animatedText">{currentProject.subdesc}</p>
           </div>
+          <span
+  style={{
+    borderRadius: '1rem',
+    backgroundColor: '#52baee',
+    padding: '0.2rem 0.5rem',
+    color: 'blue',
+    fontSize: '0.7rem',
+    marginRight: '0.5rem',
+    maxWidth:'8rem',
+    textAlign:'center'
+  }}
+  className="mb-2 border-b-gray-500"
+>
+ {currentProject.progress}
+</span>
 
           <div className="flex items-center justify-between flex-wrap gap-5">
             <div className="flex items-center gap-3">
