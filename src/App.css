@@ -145,10 +145,11 @@
       width:92vw
     }
     .contact-font{
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
     .input-rspnsv{
-      padding:0.2 0 rem
+      padding:0rem 1rem;
+      width:80vw
     }
     .expereince_text_rspnsv{
       font-size: 0.9rem;
