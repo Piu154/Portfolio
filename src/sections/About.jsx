@@ -75,7 +75,7 @@ const About = () => {
           <div className="grid-container grid_rspnsv">
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain img_rspnsv" style={{ minHeight: '64%' }} />
 
-            <div>
+            <div className='img_rspnsvv'>
               <p className="grid-headtext grid-headtext_rspnsv mb-2">Hi, I’m Priya Samanta</p>
               <p className="grid-subtext mb-2 grid-headtext_rspnsvv">
                 With hands on experience, I have honed my skills in both frontend and backend dev, creating dynamic

@@ -162,7 +162,7 @@
       font-size: 0.8rem;
     }
     .grid_rspnsv{
-      height:120vh;
+      height:95vh;
     }
     .grid_rspnsvv{
       height:95vh;
@@ -181,7 +181,7 @@
      
     }
     .tech_rspnsv{
-      margin-right: 2rem;
+      margin-right: 0.7rem;
     }
    
     .grid-headtext_rspnsv{
@@ -193,6 +193,15 @@
     }
     .grid-headtext_rspnsvv{
       margin-left: 20px;
+    }
+    .img_rspnsvv{
+      margin-top:-2rem;
+    }
+    .img_rspnsv{
+      margin-top:-3rem;
+    }
+    .custom-light-black-shadow{
+      min-height: 75vh;
     }
    }
 
